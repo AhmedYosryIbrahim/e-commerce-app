@@ -1,0 +1,55 @@
+name: store_task
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.4 <3.0.0"
+
+dependencies:
+  cached_network_image: ^3.2.2
+  carousel_slider: ^4.1.1
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  dio: ^4.0.6
+  easy_localization: ^3.0.0
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_screenutil: ^5.5.4
+  flutter_svg: ^1.1.6
+  fluttertoast: ^8.0.9
+  get_it: ^7.2.0
+  hive: any
+  hive_flutter: any
+  internet_connection_checker: ^0.0.1+4
+  shared_preferences: ^2.0.15
+
+dev_dependencies:
+  build_runner: any
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  hive_generator: any
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/langs/
+
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Regular.ttf
+          weight: 600
+        - asset: assets/fonts/Tajawal-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Tajawal-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Tajawal-Light.ttf
+          weight: 300
